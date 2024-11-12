@@ -13,7 +13,7 @@ function Header() {
                 </div>
                 <ul className="menu">
                     <li><a href="#">Cart |</a></li>
-                    <li><a href="#">User |</a></li>
+                    <li><a href="register">User |</a></li>
                     <li><a href="#">Tala</a></li>
                 </ul>
             </nav>
@@ -21,7 +21,7 @@ function Header() {
                 <div className='naba-right'>
                     <a href="#">ALL BRANDS</a>
                     <a href="#">SKIN CARE</a>
-                    <a href="#">MAKE UP</a>
+                    <a href="product">MAKE UP</a>
                     <a href="#">BATH & BODY</a>
                     <a href="#">BEAUTY SUPPLEMENTS</a>
                     <a href="#">PROMOS</a>

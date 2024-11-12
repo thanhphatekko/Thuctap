@@ -2,10 +2,12 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
 
-
 export default function Home() {
   return (
     <div>
+      <div className="banner">
+        <img src="../images/banner1.jpg" alt="banner1" />
+      </div>
       <div className="new-arrivals">
         <div className="container">
           <h1>NEW ARRIVALS</h1>
@@ -16,7 +18,7 @@ export default function Home() {
         <div className="product-grid">
           <div className="product-item category">
             <div className="product-image">
-              <img src="" alt="" />
+              <img  src="" alt="" />
               <button className="categorys">Category</button>
             </div>
             <div className="product-info">

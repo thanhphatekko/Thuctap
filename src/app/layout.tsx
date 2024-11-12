@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Slider from "../components/slider";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -23,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header/>
-        <Slider/>
+        
         {children}
         <Footer/>
         </body>
