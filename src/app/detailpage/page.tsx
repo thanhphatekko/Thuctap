@@ -1,4 +1,5 @@
 import React from "react";
+import Skincare from "@/src/components/skincare";
 import "./detail.css";
 function detailpage() {
   return (
@@ -69,8 +70,10 @@ function detailpage() {
               <li>Lorem Ipsum</li>
             </ul>
           </div>
+          
         </div>
       </div>
+      <Skincare/>
     </div>
   );
 }
